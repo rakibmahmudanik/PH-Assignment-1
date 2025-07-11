@@ -110,3 +110,33 @@ main #action .right-side {
 }
 
 /* Action section ends here --------------- */
+
+main #productive-user {
+  background-color: rgba(77, 71, 255, 0.1);
+  text-align: center;
+  padding: 50px 80px;
+  margin-bottom: 116px;
+  border-radius: 24px;
+}
+
+main #productive-user h3 {
+  font-size: 2.3rem;
+  margin-bottom: 40px;
+}
+
+main #productive-user .users-data {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main #productive-user .users-data .data h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+  color: var(--primary-color);
+}
+
+main #productive-user .users-data .data p {
+  font-size: 20px;
+}
