@@ -111,6 +111,8 @@ main #action .right-side {
 
 /* Action section ends here --------------- */
 
+/* Productive user section starts here --------------- */
+
 main #productive-user {
   background-color: rgba(77, 71, 255, 0.1);
   text-align: center;
@@ -140,3 +142,72 @@ main #productive-user .users-data .data h1 {
 main #productive-user .users-data .data p {
   font-size: 20px;
 }
+
+/* Productive user section starts here --------------- */
+/* Users feedback section starts here --------------- */
+main #users-feedback {
+  margin-bottom: 116px;
+}
+
+main #users-feedback .feedback span {
+  color: #ffb805;
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}
+
+main #users-feedback .feedbacks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+main #users-feedback .feedback {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #f2eded;
+  border-radius: 14px;
+}
+
+main #users-feedback h3 {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 40px;
+}
+
+main #users-feedback p {
+  font-family: "Inter", sans-serif;
+}
+main #users-feedback .feedback .feedback-text h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+main #users-feedback .feedback .feedback-text p {
+  font-size: 1rem;
+  margin: 12px 0;
+  color: var(--secondary-color);
+}
+
+main #users-feedback .feedback .user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main #users-feedback .feedback .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+main #users-feedback .feedback .user-info h5 {
+  font-size: 1rem;
+  color: rgb(146, 146, 146);
+}
+main #users-feedback .feedback .user-info p {
+  color: rgb(186, 186, 186);
+  font-size: 0.8rem;
+}
+
+/* Users feedback section starts here --------------- */
