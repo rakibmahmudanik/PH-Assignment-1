@@ -13,6 +13,9 @@
   --secondary-color: #252432;
   --paragraph-color: rgba(0, 0, 0, 0.5);
 }
+body {
+  background-color: #f6f8ff;
+}
 .container {
   width: 100%;
 }
@@ -30,7 +33,7 @@
 
 header {
   height: 80vh;
-  background-color: #4d47ff02;
+
   background-image: url("../Assets/Hero-bg.png");
   background-blend-mode: multiply;
   background-size: cover;
@@ -72,3 +75,38 @@ header .navbar .banner h1 {
 }
 
 /* header section ends here ============== */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Action section starts here --------------- */
+main #action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 116px 0;
+}
+main #action .left-side {
+}
+
+main #action .left-side h3 {
+  font-size: 42px;
+  margin-bottom: 23px;
+}
+
+main #action .left-side p {
+  margin-bottom: 23px;
+  width: 70%;
+  font-size: 24px;
+  color: var(--paragraph-color);
+}
+
+main #action .right-side {
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+  background-image: url("../Assets/wc-mini.png");
+}
+
+/* Action section ends here --------------- */
