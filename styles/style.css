@@ -212,6 +212,33 @@ main #users-feedback .feedback .user-info p {
 
 /* Users feedback section starts here --------------- */
 
+main #ready-to-focus {
+  padding: 71px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: #ffff;
+  border-radius: 14px;
+  margin-bottom: 116px;
+}
+
+main #ready-to-focus h1 {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+main #ready-to-focus p {
+  color: var(--paragraph-color);
+}
+main #ready-to-focus .img {
+  background-image: url("../Assets/wc-big.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 365px;
+  border-radius: 48px;
+}
 /* Get in touch section starts here --------------- */
 
 main #get-in-touch {
