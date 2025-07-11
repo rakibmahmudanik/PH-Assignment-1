@@ -27,6 +27,14 @@ body {
   border-radius: 10px;
   font-weight: bold;
   font-size: 1rem;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #3b3ae6;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 
 /* header section starts here ============== */
@@ -58,7 +66,11 @@ header .navbar nav ul li a {
   font-weight: 800;
   font-size: 2rem;
 }
-
+header .navbar nav ul li a span {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  font-family: "Inter", sans-serif;
+}
 header .navbar .banner {
   height: 70vh;
   display: flex;
@@ -212,6 +224,8 @@ main #users-feedback .feedback .user-info p {
 
 /* Users feedback section starts here --------------- */
 
+/* Ready to focus section starts here --------------- */
+
 main #ready-to-focus {
   padding: 71px 150px;
   display: flex;
@@ -239,6 +253,8 @@ main #ready-to-focus .img {
   height: 365px;
   border-radius: 48px;
 }
+/* Ready to focus section ends here --------------- */
+
 /* Get in touch section starts here --------------- */
 
 main #get-in-touch {
@@ -286,3 +302,48 @@ main #get-in-touch form .form-group textarea {
 }
 
 /* Get in touch section ends here --------------- */
+
+/* footer section starts here -------------- */
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 104px 0;
+  border-top: 1px solid #f2eded;
+}
+
+footer .footer-content {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  gap: 20px;
+}
+
+footer .footer-content .logo a {
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+footer .footer-content .logo a span {
+  color: var(--secondary-color);
+  font-size: 7rem;
+  font-family: "Inter", sans-serif;
+}
+
+footer p {
+  color: var(--paragraph-color);
+}
+
+footer .links ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+footer .links ul li a {
+  color: #8987a1;
+}
+
+/* footer section ends here -------------- */
